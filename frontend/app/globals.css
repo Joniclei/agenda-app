@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f0f2f5;
+  color: #1a1a2e;
+}
+
+header {
+  background: #1a1a2e;
+  color: white;
+  padding: 18px 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-top: 16px;
+}
+
+th, td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+th {
+  background: #1a1a2e;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tr:hover td {
+  background: #f8f9ff;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.btn-primary {
+  background: #16a34a;
+  color: white;
+}
+
+.btn-edit {
+  background: #2563eb;
+  color: white;
+  margin-right: 8px;
+}
+
+.btn-delete {
+  background: #dc2626;
+  color: white;
+}
+
+
+form {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  max-width: 520px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #374151;
+}
+
+input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+}
+
+.btn-submit {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 28px;
+  font-size: 15px;
+  width: 100%;
+}
