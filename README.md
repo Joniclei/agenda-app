@@ -94,6 +94,7 @@ Frontend disponível em: `http://localhost:3000`
 - Implementação de camada de Service para tratamento das regras de negócio (padrão MVC completo)
 - Tratamento de erros centralizado via middleware
 - Testes unitários e de integração
+- Extração do formulário de contato em um componente reutilizável compartilhado entre as páginas de criar e editar
 - Validações no frontend (campos obrigatórios, formato de email, etc.)
 - Feedback visual de loading e erros para o usuário
 - Deploy na nuvem (Render, Railway ou Vercel)
