@@ -12,9 +12,3 @@ node_modules/
 .env
 .env.local
 .env.production
-
-# Mac
-.DS_Store
-
-# Logs
-*.log
